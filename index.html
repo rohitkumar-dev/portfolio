@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Kumar - Full Stack Developer & Data Science Enthusiast</title>
+    <meta name="description" content="Rohit Kumar - Computer Science Engineering graduate specializing in Full Stack Development, AI, and Data Science. View portfolio projects and get in touch.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">RK</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+                <i class="fas fa-sun sun-icon"></i>
+                <i class="fas fa-moon moon-icon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="opacity: 1; ">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-code"></i>
+                    <span>Full Stack Developer</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Rohit Kumar</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Computer Science Engineering graduate passionate about creating innovative digital solutions. 
+                    Specializing in Full Stack Development, AI, and Data Science.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        View Projects
+                    </a>
+                    <a href="Resume.pdf" download="Rohit_Kumar_Resume.pdf" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="bg.png" alt="Rohit Kumar - Developer" class="profile-img">
+                    <div class="floating-card">
+                        <i class="fas fa-rocket"></i>
+                        <span>Ready to Code!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="about.png" alt="Rohit Kumar" class="about-img">
+                    <div class="experience-badge">
+                        <span class="years">2+</span>
+                        <span class="text">Years of<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Passionate Developer & Problem Solver</h3>
+                    <p>
+                        I am an aspiring and proactive final-year Computer Science and Engineering graduate with a strong foundation in programming and web technologies. My passion for AI and Data Science drives me to seek innovative projects that make a real impact.
+                    </p>
+                    <p>
+                        With hands-on experience in various programming languages and modern web technologies, I specialize in building responsive, user-friendly applications. I'm currently pursuing my B.Tech at Dewan VS Institute of Engineering and Technology with a GPA of 6.8/10.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>B.Tech CSE Student</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Full Stack Developer</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-brain"></i>
+                            <span>AI & Data Science Enthusiast</span>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <img src="skills/java.png" alt="Java" class="skill-icon">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="skills/python.png" alt="Python" class="skill-icon">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="skills/c-.png" alt="C Programming" class="skill-icon">
+                            <span class="skill-name">C Programming</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-globe"></i>
+                        Web Technologies
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <img src="skills/html.png" alt="HTML" class="skill-icon">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="skills/css-3.png" alt="CSS" class="skill-icon">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="skills/js.png" alt="JavaScript" class="skill-icon">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="skills/bootstrap.png" alt="Bootstrap" class="skill-icon">
+                            <span class="skill-name">Bootstrap</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Others
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <img src="skills/social.png" alt="GitHub" class="skill-icon">
+                            <span class="skill-name">GitHub</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="skills/office.png" alt="MS Office" class="skill-icon">
+                            <span class="skill-name">MS Office</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="skills/database.png" alt="SQL" class="skill-icon">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Projects Section -->
+    <section id="projects" class="projects animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects/study.png" alt="Learning Management System" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Source Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Learning Management System (LMS)</h3>
+                        <p class="project-description">
+                            A comprehensive LMS built with MERN Stack featuring interactive course modules, 
+                            user authentication, progress tracking, and real-time collaboration tools.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects/project1.png" alt="Semantic Analysis Tool" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Source Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Semantic Analysis Tool</h3>
+                        <p class="project-description">
+                            Advanced NLP application using Python, Flask, and Machine Learning for 
+                            sentiment analysis, text categorization, and intelligent information extraction.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects/eccom.png" alt="Ecommerce Website" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Source Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Ecommerce Platform</h3>
+                        <p class="project-description">
+                            Full-featured eCommerce solution with responsive design, secure payment integration, 
+                            inventory management, and advanced product filtering capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:contactme.rohitkumar@gmail.com">contactme.rohitkumar@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+916307411873">+91 xxxxxxxxxx</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <span>Noida, UP, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/rohitkumar-dev" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rohitkumar-dev/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:contactme.rohitkumar@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xqabvpez" method="post">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Rohit Kumar</h3>
+                    <p>Passionate developer creating innovative digital solutions with cutting-edge technologies.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>contactme.rohitkumar@gmail.com</p>
+                    <p>+91 xxxxxxxxxx</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>✨ Code written by AI ✨ | &copy; 2025 Rohit Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
